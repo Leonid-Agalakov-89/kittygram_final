@@ -12,7 +12,7 @@ services:
     volumes:
       - pg_data:/var/lib/postgresql/data
   backend:
-    image: leonid89/kittygram_backend
+    image: leonid89/kittygram_backend:latest
     env_file: .env
     volumes:
       - static:/backend_static
@@ -20,12 +20,12 @@ services:
     depends_on:
       - db
   frontend:
-    image: leonid89/kittygram_frontend
+    image: leonid89/kittygram_frontend:latest
     command: cp -r /app/build/. /static/
     volumes:
       - static:/static
   gateway:
-    image: leonid89/kittygram_gateway
+    image: leonid89/kittygram_gateway:latest
     ports:
       - 9000:80
     volumes:
