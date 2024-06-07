@@ -71,5 +71,5 @@ CD/CI
 
 
 ## Об авторе:
-Леонид Агалаков - python backend developer.
+Леонид Агалаков - python backend developer
 `https://github.com/Leonid-Agalakov-89`
