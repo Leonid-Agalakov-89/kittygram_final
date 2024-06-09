@@ -59,7 +59,7 @@ Docker
 Backend
 * Django
 * djangorestframework
-* joiser
+* djoser
 * PostgreSQL
 
 Frontend
